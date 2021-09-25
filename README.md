@@ -5,10 +5,10 @@ This version of esx_vehicleshop has been modified to work with qs-casino.
 
 ## Modifications
 
-######
-esx_vehicleshop/client/main.lua
-ADD
-######
+
+Add in esx_vehicleshop/client/main.lua
+
+
 ```lua
 --- LUCKYWHEEL
 RegisterNetEvent("qs-luckywheel:winCar")
@@ -35,10 +35,8 @@ AddEventHandler("qs-luckywheel:winCar", function()
 end)
 ```
 
-######
-esx_vehicleshop/server/main.lua
-ADD or REPLACE
-######
+Add in esx_vehicleshop/server/main.lua
+
 ```lua
 RegisterServerEvent('esx_vehicleshop:setVehicleOwned')
 AddEventHandler('esx_vehicleshop:setVehicleOwned', function (vehicleProps)
