@@ -1,7 +1,7 @@
 # esx_vehicleshop
 This version of esx_vehicleshop has been modified to work with qs-casino.
 
-![Image of Vehicleshop](https://imgur.com/13q88dW)
+![Image of Vehicleshop](https://i.imgur.com/13q88dW.png)
 
 ## Modifications
 
