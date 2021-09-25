@@ -14,7 +14,7 @@ Add in esx_vehicleshop/client/main.lua
 RegisterNetEvent("qs-luckywheel:winCar")
 AddEventHandler("qs-luckywheel:winCar", function() 
     
-    ESX.Game.SpawnVehicle("emerus", { x = 933.29 , y = -2.82 , z = 78.76 }, 144.6, function (vehicle)
+    ESX.Game.SpawnVehicle("emerus", { x = 933.29 , y = -2.82 , z = 78.76 }, 144.6, function (vehicle) -- Vehicle name, emerus default vehicle.
 		local playerPed = PlayerPedId()
 		TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 
